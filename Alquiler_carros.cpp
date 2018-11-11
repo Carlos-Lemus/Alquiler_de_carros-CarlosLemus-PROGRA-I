@@ -85,7 +85,7 @@ void datoscar::mostrarNombre(){
 //cuerpo principal del programa
 int main()
 {
-	//funcion para añadir color a la letra y fondo de la consola
+	//funcion para aÃ±adir color a la letra y fondo de la consola
 	system("color 4B");
 	
 	cout << '\a'; // funcion que reproduce un sonido de campana
@@ -289,7 +289,7 @@ void datoscar::mostrar()	/*se accedera a la funcion mostrar que esta en la estru
     gotoxy(43,8);
 	cout << "Fecha de salida: " << anio << endl;
     gotoxy(43,9);
-	cout << "Diseño: " << disenio << endl;
+	cout << "DiseÃ±o: " << disenio << endl;
     gotoxy(43,10);
 	cout << "Transmision: " << transmision << endl;
     
@@ -347,22 +347,22 @@ void agregarc(bool c[]) //funcion que no retorna valor contiene un parametro de 
     //Setencia switch para abrir la imagen correspondiente a la opcion de carro elejida
     switch(opccar){
     	case 1:
-    		system("Imagenes//KIA_CERATO.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("KIA_CERATO.bmp"); //funcio para abrir la imagen del auto atravez del explorador
     		break;
     	case 2:
-    		system("Imagenes//MITSUBISHI_SPORTERO.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("MITSUBISHI_SPORTERO.bmp"); //funcio para abrir la imagen del auto atravez del explorador
     		break;
     	case 3:
-    		system("Imagenes//TOYOTA_COROLLA.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("TOYOTA_COROLLA.bmp"); //funcio para abrir la imagen del auto atravez del explorador
     		break;
     	case 4:
-    		system("Imagenes//NISSAN_PATHFINDER.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("NISSAN_PATHFINDER.bmp"); //funcio para abrir la imagen del auto atravez del explorador
     		break;
     	case 5:
-    		system("Imagenes//BMW_320_I.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("BMW_320_I.bmp"); //funcio para abrir la imagen del auto atravez del explorador
     		break;
     	default:
-    		system("Imagenes//TOYOYA_YARIS.bmp"); //funcio para abrir la imagen del auto atravez del explorador
+    		system("TOYOYA_YARIS.bmp"); //funcio para abrir la imagen del auto atravez del explorador
 	}
     
     system("pause"); //detiene la pantalla hasta que se presione una tecla
