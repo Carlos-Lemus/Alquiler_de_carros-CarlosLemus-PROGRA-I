@@ -1,0 +1,13 @@
+Instrucciones
+
+-El programa visualizara imagenes con la funcion system
+
+-para ello siga los siguientes pasos para compilar el programa en dev c++
+
+Paso
+1.Descargue las carpetas de imagenes que viene en el correo
+2.Descomprime el archivo
+3. Copie y pegue la carpeta en el lugar en que esta almacenado la carpeta del programa o
+en la carpete en donde el archivo se compila
+4.Compile el programa
+5-FIN
